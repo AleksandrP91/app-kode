@@ -6,7 +6,7 @@ import FrameCard from './components/FrameCard/FrameCard';
 import InfoCard from './components/FrameInfo/InfoCard';
 import Login from './components/Login/Login';
 
-function App() {
+function App(props) {
   return (
     <BrowserRouter>
       <div className="app-wrapp">
@@ -17,8 +17,8 @@ function App() {
           <Route path="/login" component={Login} />
         </form>
         <div className="frameCard">
-          <Route path="/framecard" component={FrameCard} />
-          <Route path="/back" component={FrameCard} />
+          <Route path="/framecard" render={() => <FrameCard frameCard={props.stateApp.frameCard}/>}/>
+          <Route path="/back" render={() => <FrameCard frameCard={props.stateApp.frameCard}/>}/>
         </div>
         <div className="frameInfo">
           <Route path="/logout" component={InfoCard} />
@@ -29,3 +29,4 @@ function App() {
 }
 
 export default App;
+// render={() => <Dialogs dialogsData={props.stateApp.dialogsPage.dialogsData}

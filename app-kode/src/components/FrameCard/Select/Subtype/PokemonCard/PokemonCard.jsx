@@ -1,12 +1,16 @@
 import React from 'react';
 import classes from './../PokemonCard/PokemonCard.module.css';
 
-const PokemonCard = function () {
+const PokemonCard = function (props) {
   return (
     <div className={classes.card}>
       <div className={classes.img}></div>
-      <div className={classes.title}></div>
-      <div className={classes.subtitle}></div>
+      <div className={classes.title}>
+        <p>{props.name}</p>
+      </div>
+      <div className={classes.subtitle}>
+        <p>{props.artist}</p>
+      </div>
     </div>
   );
 };

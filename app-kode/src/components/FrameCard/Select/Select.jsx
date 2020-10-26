@@ -3,11 +3,12 @@ import classes from './../Select/Select.module.css';
 import Subtype from './Subtype/Subtype';
 import Type from './Type/Type';
 
-const Select = function () {
+const Select = function (props) {
+
   return (
     <div className={classes.select}>
       <Type />
-      <Subtype />
+      <Subtype frameCard={props.frameCard}/>
     </div>
   );
 };

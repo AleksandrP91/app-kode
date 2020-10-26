@@ -1,0 +1,11 @@
+.img {
+  background-color: #ccc;
+  width: 622px;
+  height: 438px;
+}
+
+.blockLeft p {
+  text-align: justify;
+  margin-top: 60px;
+  width: 622px;
+}

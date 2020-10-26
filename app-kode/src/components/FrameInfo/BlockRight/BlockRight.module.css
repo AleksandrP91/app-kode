@@ -1,0 +1,9 @@
+hr {
+  margin: 50px 30px;
+}
+
+.item {
+  width: 400px;
+  margin: 16px 0 16px 30px;
+  list-style-type: none;
+}
