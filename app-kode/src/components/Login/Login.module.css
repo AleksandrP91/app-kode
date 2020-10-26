@@ -1,0 +1,43 @@
+.loginWrapp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginWrapp input {
+  margin-top: 50px;
+  padding: 0 0 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #9b9b9b;
+  width: 278px;
+  height: 68px;
+  background-color: #ececec;
+  border-radius: 4px;
+  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.loginWrapp button {
+  background: url(./../img/arrow.png) center center/cover no-repeat;
+  background-color: #9b9b9b;
+  background-size: 50px;
+  margin-top: 167px;
+  width: 96px;
+  height: 96px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+button:hover {
+  background-color: rgb(0, 132, 255);
+}

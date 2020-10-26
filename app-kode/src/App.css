@@ -1,0 +1,36 @@
+.app-wrapp {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.formPassword {
+  border: 1px solid rgba(212, 219, 217, .5);
+  width: 396px;
+  height: 426px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.formLogin {
+  display: none;
+  border: 1px solid rgba(212, 219, 217, .5);
+  width: 396px;
+  height: 426px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
