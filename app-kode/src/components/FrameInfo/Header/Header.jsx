@@ -5,7 +5,8 @@ import classes from './../Header/Header.module.css';
 const Header = function () {
   return (
     <div className={classes.header}>
-      <NavLink to='/logout' >logout</NavLink>
+      <NavLink to='/back' > &#8592; Back</NavLink>
+      <NavLink to='/logout' >Logout</NavLink>
     </div>
   );
 };

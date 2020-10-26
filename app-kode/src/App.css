@@ -10,7 +10,7 @@
 }
 
 .formPassword {
-  display: none;
+  /* display: none; */
   border: 1px solid rgba(212, 219, 217, .5);
   width: 396px;
   height: 426px;

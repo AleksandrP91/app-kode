@@ -1,0 +1,9 @@
+.subtype {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 680px;
+  height: 885px;
+  background-color: #ebebeb;
+}
+

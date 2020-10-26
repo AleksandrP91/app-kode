@@ -1,0 +1,16 @@
+.type {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 320px;
+  height: 885px;
+  background-color: #ebebeb;
+}
+
+select {
+  margin-top: 70px;
+  width: 278px;
+  height: 68px;
+  background-color: #e5e5e5;
+  border: 1px solid rgba(212, 219, 217, .5);
+}

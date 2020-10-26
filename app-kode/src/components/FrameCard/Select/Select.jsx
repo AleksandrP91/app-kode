@@ -1,11 +1,13 @@
 import React from 'react';
 import classes from './../Select/Select.module.css';
+import Subtype from './Subtype/Subtype';
+import Type from './Type/Type';
 
 const Select = function () {
   return (
     <div className={classes.select}>
-      <div className={classes.type}></div>
-      <div className={classes.subtype}></div>
+      <Type />
+      <Subtype />
     </div>
   );
 };
